@@ -3,8 +3,7 @@ import { PdfProvider } from "./context"
 import { GlobalStyle } from "./styles/global"
 import { defaultTheme } from "./styles/themes/default"
 import { Worker } from "@react-pdf-viewer/core"
-import { Router } from "./Router"
-import { BrowserRouter } from "react-router-dom"
+import { Routes } from "./Router"
 import "./lib/pdf.worker"
 
 export function App() {
@@ -13,9 +12,7 @@ export function App() {
       <GlobalStyle />
       <PdfProvider>
         <Worker workerUrl="./lib/pdf.worker">
-          <BrowserRouter>
-            <Router />
-          </BrowserRouter>
+          <Routes></Routes>
         </Worker>
       </PdfProvider>
     </ThemeProvider>

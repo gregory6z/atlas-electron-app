@@ -1,4 +1,4 @@
-import { Route, Routes } from "react-router-dom"
+import { Route, Router } from "electron-router-dom"
 import { DefaultLayout } from "./layouts/DefaultLayout"
 import { Ccs } from "./pages/Ccs"
 import { Cims } from "./pages/Cims"
@@ -15,32 +15,36 @@ import { Om } from "./pages/Om"
 import { Pdf } from "./pages/Pdf"
 import { Vaguemestre } from "./pages/Vaguemestre"
 
-export function Router() {
+export function Routes() {
   return (
-    <Routes>
-      <Route path="/" element={<DefaultLayout />}>
-        <Route path="/" element={<Home />}></Route>
-        <Route path="/cims" element={<Cims />}></Route>
-        <Route path="/ccs" element={<Ccs />}></Route>
-        <Route path="/demenagement" element={<Demenagement />}></Route>
-        <Route path="/fdligne" element={<Fdligne />}></Route>
-        <Route path="/gite" element={<Gite />}></Route>
-        <Route path="/eureka" element={<Eureka />}></Route>
-        <Route
-          path="/demenagement/hors-metropole"
-          element={<DemenagementHm />}
-        ></Route>
-        <Route
-          path="/demenagement/metropole"
-          element={<DemenagementM />}
-        ></Route>
-        <Route path="/habillement" element={<Habillement />}></Route>
-        <Route path="/vaguemestre" element={<Vaguemestre />}></Route>
-        <Route path="/escapade" element={<Escapade />}></Route>
+    <Router
+      main={
+        <>
+          <Route path="/" element={<DefaultLayout />}>
+            <Route path="/" element={<Home />}></Route>
+            <Route path="/cims" element={<Cims />}></Route>
+            <Route path="/ccs" element={<Ccs />}></Route>
+            <Route path="/demenagement" element={<Demenagement />}></Route>
+            <Route path="/fdligne" element={<Fdligne />}></Route>
+            <Route path="/gite" element={<Gite />}></Route>
+            <Route path="/eureka" element={<Eureka />}></Route>
+            <Route
+              path="/demenagement/hors-metropole"
+              element={<DemenagementHm />}
+            ></Route>
+            <Route
+              path="/demenagement/metropole"
+              element={<DemenagementM />}
+            ></Route>
+            <Route path="/habillement" element={<Habillement />}></Route>
+            <Route path="/vaguemestre" element={<Vaguemestre />}></Route>
+            <Route path="/escapade" element={<Escapade />}></Route>
 
-        <Route path="/om" element={<Om />}></Route>
-      </Route>
-      <Route path="/pdf" element={<Pdf />}></Route>
-    </Routes>
+            <Route path="/om" element={<Om />}></Route>
+          </Route>
+          <Route path="/pdf" element={<Pdf />}></Route>
+        </>
+      }
+    ></Router>
   )
 }

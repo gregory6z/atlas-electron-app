@@ -226,7 +226,7 @@
     core-js-pure "^3.25.1"
     regenerator-runtime "^0.13.11"
 
-"@babel/runtime@^7.0.0", "@babel/runtime@^7.10.2", "@babel/runtime@^7.18.9", "@babel/runtime@^7.5.5", "@babel/runtime@^7.8.7":
+"@babel/runtime@^7.10.2", "@babel/runtime@^7.18.9", "@babel/runtime@^7.5.5", "@babel/runtime@^7.8.7":
   version "7.20.6"
   resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.20.6.tgz#facf4879bfed9b5326326273a64220f099b0fce3"
   integrity sha512-Q+8MqP7TiHMWzSfwiJwXCjyf4GYA4Dgw3emg/7xmwsdLJOZUp+nMqcOwOzzYheuM1rhDu8FSj2l0aoMygEuXuA==
@@ -488,7 +488,7 @@
     "@nodelib/fs.scandir" "2.1.5"
     fastq "^1.6.0"
 
-"@react-pdf-viewer/core@3.8.0":
+"@react-pdf-viewer/core@^3.7.0":
   version "3.8.0"
   resolved "https://registry.yarnpkg.com/@react-pdf-viewer/core/-/core-3.8.0.tgz#ec986fb0307207a52d3e667d42dfe4d899a72e64"
   integrity sha512-kE4ps17Px8kD9NSSsj3KMBYOij+M7uPbodEFFC3KNKmZuam5kvGBhus/ctGEDrom83joo+2TBAqoIgwbNbHrIA==
@@ -618,14 +618,6 @@
   integrity sha512-qnVvHxASt/H7i+XG1U1xMiY5t+IHcPGUK7TDMDzom08xa7e86eCeKOiLZezwCKVxJn6NEiiy2ekgX8aQssjIKg==
   dependencies:
     "@types/react" "*"
-
-"@types/react-pdf@^5.7.4":
-  version "5.7.4"
-  resolved "https://registry.yarnpkg.com/@types/react-pdf/-/react-pdf-5.7.4.tgz#031a46a13f82390f84f490e66b0d263c8b7b3728"
-  integrity sha512-Im/HY4QhkhYcG+FJoGCy0WoGvdgYcpm+89W1lK5K9KBEQCy1YqTxhmWey5UkdnIPymmEDyeVJXdK0lPjtcvMyA==
-  dependencies:
-    "@types/react" "*"
-    pdfjs-dist "^2.10.377"
 
 "@types/react@*", "@types/react@18.0.25":
   version "18.0.25"
@@ -1258,11 +1250,6 @@ clone-response@^1.0.2:
   dependencies:
     mimic-response "^1.0.0"
 
-clsx@^1.2.1:
-  version "1.2.1"
-  resolved "https://registry.yarnpkg.com/clsx/-/clsx-1.2.1.tgz#0ddc4a20a549b59c93a4116bb26f5294ca17dc12"
-  integrity sha512-EcR6r5a8bj6pu3ycsa/E/cKVGuTgZJZdsyUYHOksG/UHIiKfjxzRxYJpyVBwYaQeOvghal9fcc4PidlgzugAQg==
-
 color-convert@^1.9.0:
   version "1.9.3"
   resolved "https://registry.yarnpkg.com/color-convert/-/color-convert-1.9.3.tgz#bb71850690e1f136567de629d2d5471deda4c1e8"
@@ -1539,11 +1526,6 @@ dom-helpers@^5.0.1:
     "@babel/runtime" "^7.8.7"
     csstype "^3.0.2"
 
-dommatrix@^1.0.3:
-  version "1.0.3"
-  resolved "https://registry.yarnpkg.com/dommatrix/-/dommatrix-1.0.3.tgz#e7c18e8d6f3abdd1fef3dd4aa74c4d2e620a0525"
-  integrity sha512-l32Xp/TLgWb8ReqbVJAFIvXmY7go4nTxxlWiAFyhoQw9RKEOHBZNnyGvJWqDVSPmq3Y9HlM4npqF/T6VMOXhww==
-
 dotenv-expand@^5.1.0:
   version "5.1.0"
   resolved "https://registry.yarnpkg.com/dotenv-expand/-/dotenv-expand-5.1.0.tgz#3fbaf020bfd794884072ea26b1e9791d45a629f0"
@@ -1608,6 +1590,11 @@ electron-publish@23.6.0:
     fs-extra "^10.0.0"
     lazy-val "^1.0.5"
     mime "^2.5.2"
+
+electron-router-dom@^1.0.5:
+  version "1.0.5"
+  resolved "https://registry.yarnpkg.com/electron-router-dom/-/electron-router-dom-1.0.5.tgz#21d8538947e50fd4d8ba2587b71f0d5354c9361f"
+  integrity sha512-xxzgteOD75kydC7jBQYRsVlXG6+wcZrB8SpB1CRbA42Zi5BaMEAFvIwbqCimSHfWWDYRiWy4eIB3ccRNLcNkIw==
 
 electron-to-chromium@^1.4.251:
   version "1.4.284"
@@ -2926,11 +2913,6 @@ magic-string@^0.26.7:
   dependencies:
     sourcemap-codec "^1.4.8"
 
-make-cancellable-promise@^1.0.0:
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/make-cancellable-promise/-/make-cancellable-promise-1.1.0.tgz#b4e9fcb31db3a27417e44f80cffa598ec9ac9f4e"
-  integrity sha512-X5Opjm2xcZsOLuJ+Bnhb4t5yfu4ehlA3OKEYLtqUchgVzL/QaqW373ZUVxVHKwvJ38cmYuR4rAHD2yUvAIkTPA==
-
 make-dir@^3.1.0:
   version "3.1.0"
   resolved "https://registry.yarnpkg.com/make-dir/-/make-dir-3.1.0.tgz#415e967046b3a7f1d185277d84aa58203726a13f"
@@ -2938,22 +2920,12 @@ make-dir@^3.1.0:
   dependencies:
     semver "^6.0.0"
 
-make-event-props@^1.1.0:
-  version "1.3.0"
-  resolved "https://registry.yarnpkg.com/make-event-props/-/make-event-props-1.3.0.tgz#2434cb390d58bcf40898d009ef5b1f936de9671b"
-  integrity sha512-oWiDZMcVB1/A487251hEWza1xzgCzl6MXxe9aF24l5Bt9N9UEbqTqKumEfuuLhmlhRZYnc+suVvW4vUs8bwO7Q==
-
 matcher@^3.0.0:
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/matcher/-/matcher-3.0.0.tgz#bd9060f4c5b70aa8041ccc6f80368760994f30ca"
   integrity sha512-OkeDaAZ/bQCxeFAozM55PKcKU0yJMPGifLwV4Qgjitu+5MoAfSQN4lsLJeXZ1b8w0x+/Emda6MZgXS1jvsapng==
   dependencies:
     escape-string-regexp "^4.0.0"
-
-merge-refs@^1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/merge-refs/-/merge-refs-1.0.0.tgz#388348bce22e623782c6df9d3c4fc55888276120"
-  integrity sha512-WZ4S5wqD9FCR9hxkLgvcHJCBxzXzy3VVE6p8W2OzxRzB+hLRlcadGE2bW9xp2KSzk10rvp4y+pwwKO6JQVguMg==
 
 merge2@^1.3.0, merge2@^1.4.1:
   version "1.4.1"
@@ -3258,14 +3230,6 @@ path-type@^4.0.0:
   resolved "https://registry.yarnpkg.com/path-type/-/path-type-4.0.0.tgz#84ed01c0a7ba380afe09d90a8c180dcd9d03043b"
   integrity sha512-gDKb8aZMDeD/tZWs9P6+q0J9Mwkdl6xMV8TjnGP3qJVJ06bdMgkbBlLU8IdfOsIsFz2BW1rNVT3XuNEl8zPAvw==
 
-pdfjs-dist@2.16.105, pdfjs-dist@^2.10.377:
-  version "2.16.105"
-  resolved "https://registry.yarnpkg.com/pdfjs-dist/-/pdfjs-dist-2.16.105.tgz#937b9c4a918f03f3979c88209d84c1ce90122c2a"
-  integrity sha512-J4dn41spsAwUxCpEoVf6GVoz908IAA3mYiLmNxg8J9kfRXc2jxpbUepcP0ocp0alVNLFthTAM8DZ1RaHh8sU0A==
-  dependencies:
-    dommatrix "^1.0.3"
-    web-streams-polyfill "^3.2.1"
-
 pdfjs-dist@3.0.279:
   version "3.0.279"
   resolved "https://registry.yarnpkg.com/pdfjs-dist/-/pdfjs-dist-3.0.279.tgz#a040dca4797fce6014e7f5c656a98e6246510ac8"
@@ -3397,21 +3361,6 @@ react-is@^16.13.1, react-is@^16.7.0:
   version "16.13.1"
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-16.13.1.tgz#789729a4dc36de2999dc156dd6c1d9c18cea56a4"
   integrity sha512-24e6ynE2H+OKt4kqsOvNd8kBpV65zoxbA4BVsEOB3ARVWQki/DHzaUoC5KuON/BiccDaCCTZBuOcfZs70kR8bQ==
-
-react-pdf@^6.2.0:
-  version "6.2.0"
-  resolved "https://registry.yarnpkg.com/react-pdf/-/react-pdf-6.2.0.tgz#2b0d9a07fc56da2e471c2714d2b1e32622b6b683"
-  integrity sha512-FKUoUKKxoIipIbRHzXQZui1j+f1QcEuFuVL03qI1GFDm0jC4eUrMyOCpPR98lY7+rsCswPn1rjfKd+8k9PrZmQ==
-  dependencies:
-    "@babel/runtime" "^7.0.0"
-    clsx "^1.2.1"
-    make-cancellable-promise "^1.0.0"
-    make-event-props "^1.1.0"
-    merge-refs "^1.0.0"
-    pdfjs-dist "2.16.105"
-    prop-types "^15.6.2"
-    tiny-invariant "^1.0.0"
-    tiny-warning "^1.0.0"
 
 react-refresh@^0.14.0:
   version "0.14.0"
@@ -3899,16 +3848,6 @@ text-table@^0.2.0:
   version "0.2.0"
   resolved "https://registry.yarnpkg.com/text-table/-/text-table-0.2.0.tgz#7f5ee823ae805207c00af2df4a84ec3fcfa570b4"
   integrity sha512-N+8UisAXDGk8PFXP4HAzVR9nbfmVJ3zYLAWiTIoqC5v5isinhr+r5uaO8+7r3BMfuNIufIsA7RdpVgacC2cSpw==
-
-tiny-invariant@^1.0.0:
-  version "1.3.1"
-  resolved "https://registry.yarnpkg.com/tiny-invariant/-/tiny-invariant-1.3.1.tgz#8560808c916ef02ecfd55e66090df23a4b7aa642"
-  integrity sha512-AD5ih2NlSssTCwsMznbvwMZpJ1cbhkGd2uueNxzv2jDlEeZdU04JQfRnggJQ8DrcVBGjAsCKwFBbDlVNtEMlzw==
-
-tiny-warning@^1.0.0:
-  version "1.0.3"
-  resolved "https://registry.yarnpkg.com/tiny-warning/-/tiny-warning-1.0.3.tgz#94a30db453df4c643d0fd566060d60a875d84754"
-  integrity sha512-lBN9zLN/oAf68o3zNXYrdCt1kP8WsiGW8Oo2ka41b2IM5JL/S1CTyX1rW0mb/zSuJun0ZUrDxx4sqvYS2FWzPA==
 
 tmp-promise@^3.0.2:
   version "3.0.3"

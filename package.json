@@ -1,6 +1,6 @@
 {
   "name": "atlas",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "An Electron application with React and TypeScript",
   "main": "./out/main/index.js",
   "author": "example.com",
@@ -22,13 +22,14 @@
     "@electron-toolkit/utils": "^1.0.2",
     "@react-pdf-viewer/core": "^3.7.0",
     "@types/styled-components": "^5.1.26",
+    "electron-router-dom": "^1.0.5",
     "eslint": "^8.28.0",
-    "pdfjs-dist": "^2.16.105",
+    "pdfjs-dist": "3.0.279",
     "phosphor-react": "^1.4.1",
-    "react-router-dom": "^6.4.3",
-    "react-transition-group": "^4.4.5",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.4.3",
+    "react-transition-group": "^4.4.5"
   },
   "devDependencies": {
     "@electron-toolkit/tsconfig": "^1.0.1",
